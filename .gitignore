@@ -27,6 +27,17 @@
 *.lib
 
 # Executables
+*.x
 *.exe
 *.out
 *.app
+
+# clangd related
+.cache/
+
+# ctags
+tags
+
+# configuration files
+compile_commands.json
+
